@@ -12,6 +12,7 @@ doAsyncTask(_ => console.log(message));
 
 let message = "Callback Called";
 ```
+A: message is not defined.
 
 # Question 2
 
@@ -30,6 +31,8 @@ readFileThenDo(data => {
   console.log(data);
 });
 ```
+
+A: data is not defined.
 
 # Question 3
 
